@@ -7,3 +7,6 @@ libmagic
 python-magic
 python-magic-bin
 torch
+pyttsx3
+open-cv
+pillow
