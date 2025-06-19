@@ -14,3 +14,5 @@ pytesseract
 transformers
 io
 requests
+duckduckgo-search
+scikit-learn
