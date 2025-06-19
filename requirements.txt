@@ -10,3 +10,7 @@ torch
 pyttsx3
 open-cv
 pillow
+pytesseract
+transformers
+io
+requests
