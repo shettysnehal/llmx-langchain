@@ -8,7 +8,7 @@ python-magic
 python-magic-bin
 torch
 pyttsx3
-open-cv
+opencv-python
 pillow
 pytesseract
 transformers
