@@ -1,0 +1,17 @@
+{
+  "image1.jpg": {
+    "caption": "the image is a diagram of the food and the food that is eaten",
+    "extracted_text": "os",
+    "speech": "In this image, you can see a vendor serving pani puri with dirty hands, which is a common practice that can lead to food contamination and food poisoning. This is a serious issue because it can cause harm to people who consume such food, and it's essential to follow proper hygiene practices when handling and serving food. As we learned earlier, food safety is crucial, and we should always ensure that food is handled and served in a clean and hygienic manner."
+  },
+  "image2.jpg": {
+    "caption": "the image is a table with the names of different foods",
+    "extracted_text": "Adulteration in food stuffs\n\nCereal\nPulses\n\nBengal gram Flour\nGhee\n\nMilk\nTea\n\nPepper\n\nClove\n\nDhaneya\n\nRed Chelli Powder\n\nHoney\nTurmeric\n\nSoil, pieces of stone infested cereal\nKhesari dal\n\nStarch powder, maize flour\nVegetable ghee Animal fat,sweet\npotato\n\nWater\n\nUsed tea leavels\n\nPapaya seeds\n\nClove after extraction\n\nSaw dust,horse dung\n\nSaw dust,Powdered Red Brick\n\nSugar, Water\nYellow Soil",
+    "speech": "In this image, you can see a list of various food items and substances that are commonly used in food preparation, but some of them are actually adulterants that can be harmful to our health. The presence of sawdust, horse dung, and other contaminants in the list highlights the importance of food safety and the need to check the quality of food before consuming it. This is in line with the Prevention of Food Adulteration Act, which aims to protect consumers from harmful food substances."
+  },
+  "image3.jpg": {
+    "caption": "the image is a poster with different types of boats",
+    "extracted_text": "Cancer\nResearch\n\nAmerican\n' Institute for\n\nFOOD) SAFETY GUIDE\n\nFollow these 4 simple steps to help reduce foodborne illnesses\n\naye\nats\nof. seafood and eggs separated\ngis When preparing from other food in your shopping\n4 storing and cutting fF cart and refrigerator\nfood, separate raw Z\nmeat, poultry,\nseafood and eges\nfrom fruits and Use separate cutting boards, plates\nvegetables and knives when preparing meat —\"\n| FCOOK |F\nae SSE\nnermomet 145%F\nef 165°F\n<=\neee 160°F\nyy ase\nRefrigerate perishable\nfood within 2 hours\n_ 40°F Do not defrost and thaw\n< Set your refrigerator Defrost and food on the counter.\n\nat 40°F or lower\n\nthaw frozen Bacteria can grow rapidly\nfood inthe __whten food is kept at room,\nrefrigerator temperature =\n\n‘American Institute for Cancer Research | PO Box 97167, Washington, DC 20090-7167 | 800-843-8114 | aicr.org",
+    "speech": "In this image, you can see a poster that seems to be about food safety, but it's actually a jumbled mix of unrelated information. The text mentions foodborne illnesses, separating raw meat from other foods, and refrigerating perishable items, but it's unclear what the image is supposed to represent."
+  }
+}

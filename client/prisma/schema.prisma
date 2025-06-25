@@ -1,0 +1,42 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:Snehal@123@localhost:5432/llm"
+}
+
+model User {
+  id       String   @id @default(cuid())
+  email    String   @unique
+  blogs    Blog[]   // One user can have many blogs (PDFs)
+  createdAt DateTime @default(now())
+}
+
+model Blog {
+  id        String   @id @default(cuid())
+  title     String
+  contentId String   // Stored in Pinecone
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  topics    Topic[]  // One blog can have many topics
+  createdAt DateTime @default(now())
+}
+
+model Topic {
+  id           String  @id @default(cuid())
+  name         String
+  blog         Blog    @relation(fields: [blogId], references: [id])
+  blogId       String
+  mcqIpfsUrl   String // IPFS link for MCQs specific to this topic
+  videoIpfsUrl String // IPFS link for video specific to this topic
+  createdAt    DateTime @default(now())
+}
