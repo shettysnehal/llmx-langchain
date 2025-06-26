@@ -32,6 +32,7 @@ import re, dotenv, json
 #load pdf,save the vectorstore
 #run the search engine and get the chunks by topic
 #generate video
+#goal:match captions with 
 
 dotenv.load_dotenv()
 
