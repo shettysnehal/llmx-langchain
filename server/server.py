@@ -29,10 +29,16 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 
 import re, dotenv, json
 
+#load pdf,save the vectorstore
+#run the search engine and get the chunks by topic
+#generate video
+
 dotenv.load_dotenv()
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000"])
+
+
 
 # Load models once
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
