@@ -237,7 +237,7 @@ def generate_video():
         print(f"{value}")
     ddgs = DDGS()
     for key, query in data.items():
-        time.sleep(10)  # Be kind to the API and avoid rate limiting
+        time.sleep(10)  #for rate limiting
         results = ddgs.images(
             keywords=query,
             region="wt-wt",
