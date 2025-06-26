@@ -53,5 +53,5 @@ const handler = NextAuth({
   },
 });
 
-// ✅ Required in App Router!
+
 export { handler as GET, handler as POST };
