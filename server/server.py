@@ -238,7 +238,7 @@ def generate_video():
     ddgs = DDGS()
     for key, query in data.items():
         time.sleep(10)  #for rate limiting
-        #colors can be removed
+        #colors can be removed add one more field {color:monochrome}
         results = ddgs.images(
             keywords=query,
             region="wt-wt",
