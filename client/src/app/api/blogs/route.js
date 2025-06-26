@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@/generated/prisma/client';
+//api for displaying all blogs of a user
 
 const prisma = new PrismaClient();
 
