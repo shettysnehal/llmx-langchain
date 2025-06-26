@@ -67,9 +67,9 @@ def estimate_timings(speech_text, wpm):
         start = end
     return all_chunks
 
-def format_time(seconds):
+def format_time(seconds):# not in use
     td = str(timedelta(seconds=seconds)).split(".")[0]
-    return td + ",000"
+    return td + ",000"  
 
 def write_srt(subtitles, filepath):
     with open(filepath, "w", encoding="utf-8") as f:
