@@ -57,7 +57,7 @@ export default function BlogPage({ params }) {
       const { ipfs } = await genRes.json();
       if (!ipfs) throw new Error("No IPFS returned");
 
-      // Step 2: Attach video IPFS to topic
+      // Attach video IPFS to topic in db 
       const attachRes = await fetch(`https://files.lighthouse.storage/viewFile/${ipfs}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
