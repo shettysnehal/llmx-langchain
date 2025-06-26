@@ -3,28 +3,28 @@ import { PrismaClient } from '@/generated/prisma/client';
 
 const prisma = new PrismaClient();
 
+
 export async function POST(req) {
   const body = await req.json();
   const { id } = body;
 
   if (!id) {
-    return NextResponse.json({ error: "Blog ID is required" }, { status: 400 });
+    return NextResponse.json({ error: "User ID is required" }, { status: 400 });
   }
 
   try {
-    const blog = await prisma.blog.findUnique({
+    const user = await prisma.user.findUnique({
       where: { id },
       include: {
-        topics: true,
-        user: true,
+        blogs: true, // Fetch all blogs related to the user
       },
     });
 
-    if (!blog) {
-      return NextResponse.json({ error: "Blog not found" }, { status: 404 });
+    if (!user || !user.blogs || user.blogs.length === 0) {
+      return NextResponse.json({ error: "No blogs found for this user" }, { status: 404 });
     }
 
-    return NextResponse.json(blog, { status: 200 });
+    return NextResponse.json(user.blogs, { status: 200 });
   } catch (err) {
     console.error(err);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

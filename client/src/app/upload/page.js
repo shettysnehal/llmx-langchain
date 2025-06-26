@@ -1,10 +1,12 @@
 'use client';
-
+/* lets users upload as many blogs as they want, each blog is a pdf file, and the user can upload a pdf file to the server, which will then be stored in the database. The user can also view all the blogs they have posted.
+ */
 import { use, useEffect, useState } from 'react';
 import { getSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { Button } from '../../components/ui/button';
 import axios from 'axios';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Page() {
   const [session, setSession] = useState(null);
@@ -26,9 +28,12 @@ export default function Page() {
       alert('Please select a PDF file first.');
       return;
     }
+    const contentId = uuidv4(); // generates a unique content ID
 
-    const formData = new FormData();
-    formData.append('pdf', file);
+
+   const formData = new FormData();
+formData.append('pdf', file);
+formData.append('contentId', contentId); 
 
     try {
       const res = await fetch('http://localhost:5000/api/upload-blog', {
@@ -61,6 +66,7 @@ console.log(session)
     userId: session.userId,
     email: session.user.email,
     topics: data,
+    contentId: contentId, // include the contentId in the request
   }),
 });
 const result = await dbRes.json();

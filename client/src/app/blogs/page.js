@@ -1,5 +1,5 @@
 'use client';
-
+/* list of all the blogs the user has posted */
 import { useEffect, useState } from 'react';
 import { getSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';

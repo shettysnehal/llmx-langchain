@@ -1,17 +1,17 @@
 {
   "image1.jpg": {
-    "caption": "the image is a diagram of the food and the food that is eaten",
-    "extracted_text": "os",
-    "speech": "In this image, you can see a vendor serving pani puri with dirty hands, which is a common practice that can lead to food contamination and food poisoning. This is a serious issue because it can cause harm to people who consume such food, and it's essential to follow proper hygiene practices when handling and serving food. As we learned earlier, food safety is crucial, and we should always ensure that food is handled and served in a clean and hygienic manner."
+    "caption": "the image is a diagram of a tree",
+    "extracted_text": "Draw a tree diagram\n\nRisa bought a blue watch\n\nSs\n\nNP vp\n| _\nN Vv NP\n\nDet Adj  N\n\nArt\n\nRisa bought a_ blue’ watch\n\nHe went to the market yesterday\n\nSs\n\na\n\nNP\n\nProp\n\nHe\n\nVP\n\na\n\nVv\n\nPP AdvP\naN |\nPrep NP Adv\nDet N\n\n|\nArt",
+    "speech": "In this image, you can see a tree diagram that represents the structure of words and how they are built up from smaller meaningful units called morphemes. The diagram illustrates how morphemes are combined and how changes occur at morpheme boundaries, which is a key concept in computational morphology. This visual representation helps us understand how finite-state transducers work in morphological analysis, mapping root forms to their inflected forms."
   },
   "image2.jpg": {
-    "caption": "the image is a table with the names of different foods",
-    "extracted_text": "Adulteration in food stuffs\n\nCereal\nPulses\n\nBengal gram Flour\nGhee\n\nMilk\nTea\n\nPepper\n\nClove\n\nDhaneya\n\nRed Chelli Powder\n\nHoney\nTurmeric\n\nSoil, pieces of stone infested cereal\nKhesari dal\n\nStarch powder, maize flour\nVegetable ghee Animal fat,sweet\npotato\n\nWater\n\nUsed tea leavels\n\nPapaya seeds\n\nClove after extraction\n\nSaw dust,horse dung\n\nSaw dust,Powdered Red Brick\n\nSugar, Water\nYellow Soil",
-    "speech": "In this image, you can see a list of various food items and substances that are commonly used in food preparation, but some of them are actually adulterants that can be harmful to our health. The presence of sawdust, horse dung, and other contaminants in the list highlights the importance of food safety and the need to check the quality of food before consuming it. This is in line with the Prevention of Food Adulteration Act, which aims to protect consumers from harmful food substances."
+    "caption": "the image is a diagram of a binary tree",
+    "extracted_text": "x/y",
+    "speech": "In this image, you can see a diagram of a binary tree, which is a type of data structure used to represent a set of elements. The diagram illustrates how the tree is structured, with each node representing a decision point and the branches representing the possible outcomes. This type of structure is often used in computational linguistics to model the ambiguity of language, where a single input can have multiple possible interpretations."
   },
   "image3.jpg": {
-    "caption": "the image is a poster with different types of boats",
-    "extracted_text": "Cancer\nResearch\n\nAmerican\n' Institute for\n\nFOOD) SAFETY GUIDE\n\nFollow these 4 simple steps to help reduce foodborne illnesses\n\naye\nats\nof. seafood and eggs separated\ngis When preparing from other food in your shopping\n4 storing and cutting fF cart and refrigerator\nfood, separate raw Z\nmeat, poultry,\nseafood and eges\nfrom fruits and Use separate cutting boards, plates\nvegetables and knives when preparing meat —\"\n| FCOOK |F\nae SSE\nnermomet 145%F\nef 165°F\n<=\neee 160°F\nyy ase\nRefrigerate perishable\nfood within 2 hours\n_ 40°F Do not defrost and thaw\n< Set your refrigerator Defrost and food on the counter.\n\nat 40°F or lower\n\nthaw frozen Bacteria can grow rapidly\nfood inthe __whten food is kept at room,\nrefrigerator temperature =\n\n‘American Institute for Cancer Research | PO Box 97167, Washington, DC 20090-7167 | 800-843-8114 | aicr.org",
-    "speech": "In this image, you can see a poster that seems to be about food safety, but it's actually a jumbled mix of unrelated information. The text mentions foodborne illnesses, separating raw meat from other foods, and refrigerating perishable items, but it's unclear what the image is supposed to represent."
+    "caption": "the image is a diagram of a tree with two different types",
+    "extracted_text": "word\n\naa\n\nmonomorphemic\n(contains one morpheme)\nisa\n\nsimple word\n\npolymorphemic\n(contains more than one morpheme)\nisa\n\ncomplex word\n\na\n\nfree form free form free form\n+ +\nfree form bound form\n(compounding) (aftixation)\n\nlexical meaning\n\ngrammatical meaning\n\ncompound word",
+    "speech": "In this image, you can see a diagram illustrating the concept of polymorphemic words, which are words that contain more than one morpheme. The diagram shows a tree with two branches, one labeled \"simple word\" and the other labeled \"polymorphemic word\", highlighting the complexity of words that are made up of multiple meaningful units. This visual representation helps to clarify the distinction between simple and complex words in linguistics."
   }
 }

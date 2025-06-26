@@ -13,9 +13,8 @@ import os
 import dotenv
 import re
 from duckduckgo_search import DDGS
-import requests
-from PIL import Image
-from io import BytesIO
+
+
 import time
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import json
@@ -44,7 +43,7 @@ llm = ChatGroq(
 ) 
 dotenv.load_dotenv()
 
-topic = #take it from api flask #
+
 
 
 # Load the PDF document

@@ -1,0 +1,1 @@
+/* To display the mcq retrieved from ipfs */

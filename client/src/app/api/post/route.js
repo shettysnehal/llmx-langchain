@@ -7,7 +7,7 @@ export async function POST(req,res) {
   try {
     const body = await req.json();
     console.log("Received body:", body);
-    const { userId, email, topics } = body;
+    const { userId, email, topics ,contentId} = body;
 
     if (!userId || !email || !Array.isArray(topics)) {
       return NextResponse.json({ error: "Missing or invalid data" }, { status: 400 });
@@ -22,7 +22,7 @@ export async function POST(req,res) {
     const blog = await prisma.blog.create({
       data: {
         title: blogTitle,
-        contentId: "",
+        contentId: contentId,
         user: { connect: { id: userId } },
         topics: {
           create: topics.map(name => ({
