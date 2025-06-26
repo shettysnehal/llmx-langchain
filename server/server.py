@@ -167,7 +167,7 @@ def upload_pdf():
         )
         with open(vector_path, "wb") as f:
             pickle.dump(vectorstore, f)
-            print(f"✅ Vectorstore saved to {vector_path}")
+            print(f" Vectorstore saved to {vector_path}")
         # === Done! You can now use vectorstore.as_retriever() ===
         """  retriever = vectorstore.as_retriever(search_kwargs=dict(k=5)) """
 
@@ -216,7 +216,7 @@ def generate_video():
     with open(vector_path, "rb") as f:
         vectorstore = pickle.load(f)
 
-    print(f"✅ Vectorstore loaded for {content_id}")
+    print(f"Vectorstore loaded for {content_id}")
     chunks = get_chunks_by_topic(vectorstore, topic)
     if len(chunks)>20:
         chunks = chunks[:20]
@@ -253,11 +253,11 @@ def generate_video():
         for r in results:
             time.sleep(1)
             if try_download(r['image'], f"retrieved_images/{key}.jpg") and is_valid_image(requests.get(r['image']).content):
-                print(f"✅ Downloaded {key}")
+                print(f" Downloaded {key}")
                 found = True
                 break
         if not found:
-            print(f"❌ Failed to download any valid image for {key}")
+            print(f"Failed to download any valid image for {key}")
 
         
     speech_prompt = PromptTemplate.from_template(speech_prompt_template)
@@ -366,14 +366,14 @@ def generate_video():
 
             # Upload to Lighthouse
             cid = upload_to_lighthouse(video_path)
-            print("✅ Video uploaded to IPFS with CID:", cid)
+            print(" Video uploaded to IPFS with CID:", cid)
 
             # Remove the video after upload
             os.remove(video_path)
 
             return jsonify({"ipfs": cid})
     except Exception as e:
-            print("❌ Failed to upload video:", e)
+            print(" Failed to upload video:", e)
             return jsonify({"error": "Failed to upload video", "details": str(e)}), 500
         
 if __name__ == "__main__":
