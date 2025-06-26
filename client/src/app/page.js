@@ -1,5 +1,6 @@
 import Image from "next/image";
 // ui starts with a extra landing page not done yet
+//check for session if has 
 
 export default function Home() {
   return (
