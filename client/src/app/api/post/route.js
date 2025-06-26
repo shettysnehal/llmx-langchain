@@ -1,6 +1,6 @@
 import { PrismaClient } from '../../../generated/prisma/client';// Adjust the path if needed
 import { NextResponse } from 'next/server';
-
+//uploading a new blog or pdf
 const prisma = new PrismaClient();
 
 export async function POST(req,res) {
