@@ -76,7 +76,7 @@ def upload_pdf():
     if not file.filename.endswith(".pdf"):
         return jsonify({"error": "Only PDF files allowed"}), 400
 
-    # Save file temporaril
+    # Save file temporarily
     upload_folder = os.path.join(os.getcwd(), "uploads")
     os.makedirs(upload_folder, exist_ok=True)
     save_path = os.path.join(upload_folder, file.filename)
