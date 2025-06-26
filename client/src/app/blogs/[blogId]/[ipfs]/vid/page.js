@@ -1,4 +1,5 @@
 'use client';
+//page not working need to set up the conponent rn its just redirectiong to the ipfs page 
 
 import { useEffect, useState } from 'react';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
