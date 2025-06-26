@@ -13,7 +13,7 @@ datasource db {
   provider = "postgresql"
   url      = "postgresql://postgres:Snehal@123@localhost:5432/llm"
 }
-
+//need to convert it to env(local)
 model User {
   id       String   @id @default(cuid())
   email    String   @unique
