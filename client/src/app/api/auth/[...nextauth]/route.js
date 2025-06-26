@@ -2,6 +2,7 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import {jwtDecode} from "jwt-decode";
 import axios from "axios";
+//goal:match the expiration of cookie with jwt
 
 const handler = NextAuth({
   session: {
