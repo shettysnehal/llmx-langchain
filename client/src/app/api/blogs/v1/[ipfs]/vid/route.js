@@ -20,7 +20,7 @@ export async function POST(req,{params}) {
   } 
 
   try {
-    const updatedTopic = await prisma.topic.update({
+    const updatedTopic = await prisma.topic.create({
       where: { id: topicId },
       data: {
         videoIpfsUrl: ipfs,
