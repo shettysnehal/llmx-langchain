@@ -71,7 +71,7 @@ def format_time(seconds):# not in use
     td = str(timedelta(seconds=seconds)).split(".")[0]
     return td + ",000"  
 
-def write_srt(subtitles, filepath):
+def write_srt(subtitles, filepath):#not in use
     with open(filepath, "w", encoding="utf-8") as f:
         for idx, start, end, sentence in subtitles:
             f.write(f"{idx}\n")
