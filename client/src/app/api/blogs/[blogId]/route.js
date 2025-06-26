@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@/generated/prisma/client';
+// API for displaying a single blog by its ID
+//also displays the topics of the blog and the user who created the blog
 
 const prisma = new PrismaClient();
 
