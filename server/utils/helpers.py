@@ -5,6 +5,8 @@ from datetime import timedelta
 import os
 import dotenv
 dotenv.load_dotenv()
+#helper functions
+#goal:env
 def get_chunks_by_topic(vectorstore, topic_query):
     all_docs = vectorstore.similarity_search("placeholder", k=len(vectorstore.docstore._dict))
     
