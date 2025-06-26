@@ -1,5 +1,4 @@
-
-
+#templates for educational content generation and retrieval for llm
 topic_prompt_template = """
 You are an expert educational content designer.
 
