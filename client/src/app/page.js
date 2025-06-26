@@ -1,4 +1,5 @@
 import Image from "next/image";
+// ui starts with a extra landing page not done yet
 
 export default function Home() {
   return (
