@@ -6,10 +6,14 @@ import tempfile
 from duckduckgo_search import DDGS
 import time
 import requests
+
+#fucntions
 from utils.helpers import get_chunks_by_topic, try_download, is_valid_image, estimate_timings, format_time,split_into_chunks, upload_to_lighthouse
 from templates.few_shots import examples
 from templates.prompts import speech_prompt_template, topic_prompt_template
 import pyttsx3
+
+#langchain
 from langchain_unstructured import UnstructuredLoader
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
