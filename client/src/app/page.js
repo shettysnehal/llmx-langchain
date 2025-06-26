@@ -1,6 +1,6 @@
 import Image from "next/image";
 // ui starts with a extra landing page not done yet
-//check for session if has cookies then show upl
+//check for session
 
 export default function Home() {
   return (
