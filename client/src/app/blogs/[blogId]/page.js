@@ -58,7 +58,7 @@ export default function BlogPage({ params }) {
       if (!ipfs) throw new Error("No IPFS returned");
 
       // Attach video IPFS to topic in db 
-      const attachRes = await fetch(`https://files.lighthouse.storage/viewFile/${ipfs}`, {
+      const attachRes = await fetch(`http://localhost:3000/api/blogs/v1/${ipfs}/vid`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topicId: topic.id }),
@@ -67,7 +67,7 @@ export default function BlogPage({ params }) {
       if (!attachRes.ok) throw new Error("Failed to attach video IPFS");
 
       if (attachRes.status === 200) {
-        router.push(`/blogs/${blogId}/${ipfs}/vid`);
+        router.push(`https://files.lighthouse.storage/viewFile/${ipfs}`);
       }
 
         

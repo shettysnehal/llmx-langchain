@@ -3,7 +3,8 @@ import { PrismaClient } from '@/generated/prisma/client';
 
 const prisma = new PrismaClient();
 
-export async function POST(req,{params}) {
+export async function POST(req,context) {
+  const { params } = context;
   console.log(params)
  
   const {ipfs}= params;
@@ -20,7 +21,7 @@ export async function POST(req,{params}) {
   } 
 
   try {
-    const updatedTopic = await prisma.topic.create({
+    const updatedTopic = await prisma.topic.update({
       where: { id: topicId },
       data: {
         videoIpfsUrl: ipfs,

@@ -16,3 +16,4 @@ requests
 duckduckgo-search
 scikit-learn
 moviepy
+

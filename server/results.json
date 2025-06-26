@@ -1,17 +1,17 @@
 {
   "image1.jpg": {
-    "caption": "the image is a diagram of a tree",
-    "extracted_text": "Draw a tree diagram\n\nRisa bought a blue watch\n\nSs\n\nNP vp\n| _\nN Vv NP\n\nDet Adj  N\n\nArt\n\nRisa bought a_ blue’ watch\n\nHe went to the market yesterday\n\nSs\n\na\n\nNP\n\nProp\n\nHe\n\nVP\n\na\n\nVv\n\nPP AdvP\naN |\nPrep NP Adv\nDet N\n\n|\nArt",
-    "speech": "In this image, you can see a tree diagram that represents the structure of words and how they are built up from smaller meaningful units called morphemes. The diagram illustrates how morphemes are combined and how changes occur at morpheme boundaries, which is a key concept in computational morphology. This visual representation helps us understand how finite-state transducers work in morphological analysis, mapping root forms to their inflected forms."
+    "caption": "the image is a graphic representation of the different types of the text",
+    "extracted_text": "ae ie eS =\n\nInflectional vs Derivational Morphology\n\nMore Information Online WWW.DIFFERENCEBETWEEN.COM\n\naay\n\nThe study of the\nThe study of the e4 =\nDEFINITION modification of words to ;3, formation of new words\neineeiciicrent that differ either in ;\ngrammatical contexts syntactic category or in\nas ‘s - meaning from their bases.\n“) Affixes that merely serve -, Affixes that are capable of\nas grammatical markers either changing the\nMORPHEMES Srdundicate some meaning or the\ngrammatical information grammatical category of\n\nabout a word. the word.\n\nCreates new forms of\n\nCreates new words\nthe same word\n\nTYPE OF WORDS",
+    "speech": "In this image, you can see a comparison between inflectional and derivational morphology, which are two main types of word modification in language. The diagram illustrates how inflectional morphology changes the grammatical function of a word, such as adding \"-s\" to \"cat\" to make \"cats\", while derivational morphology creates new words by adding affixes, like \"happy\" becoming \"happiness\". This visual representation helps us understand the key differences between these two types of word modification."
   },
   "image2.jpg": {
-    "caption": "the image is a diagram of a binary tree",
-    "extracted_text": "x/y",
-    "speech": "In this image, you can see a diagram of a binary tree, which is a type of data structure used to represent a set of elements. The diagram illustrates how the tree is structured, with each node representing a decision point and the branches representing the possible outcomes. This type of structure is often used in computational linguistics to model the ambiguity of language, where a single input can have multiple possible interpretations."
+    "caption": "the image is a diagram of the same movement",
+    "extracted_text": "Stemming vs Lemmatization\n\nImprove\n\nImprove\nImproving — Improving =,\n\nImprovements——> Improv Improvements ———~ Improve\n\nImproved —— Improved aa\nImprover wa\n\nImprover\n\n7 TURING",
+    "speech": "In this image, you can see a comparison between stemming and lemmatization, two processes used to reduce words to their base form. The diagram illustrates how stemming can result in non-valid words, whereas lemmatization ensures the output is a valid word, considering the context and part of speech. This distinction is crucial in natural language processing, where accurate word forms are essential for tasks like part-of-speech tagging and machine translation."
   },
   "image3.jpg": {
-    "caption": "the image is a diagram of a tree with two different types",
-    "extracted_text": "word\n\naa\n\nmonomorphemic\n(contains one morpheme)\nisa\n\nsimple word\n\npolymorphemic\n(contains more than one morpheme)\nisa\n\ncomplex word\n\na\n\nfree form free form free form\n+ +\nfree form bound form\n(compounding) (aftixation)\n\nlexical meaning\n\ngrammatical meaning\n\ncompound word",
-    "speech": "In this image, you can see a diagram illustrating the concept of polymorphemic words, which are words that contain more than one morpheme. The diagram shows a tree with two branches, one labeled \"simple word\" and the other labeled \"polymorphemic word\", highlighting the complexity of words that are made up of multiple meaningful units. This visual representation helps to clarify the distinction between simple and complex words in linguistics."
+    "caption": "the image is a white background with a green and red text that reads lexi ambiguity",
+    "extracted_text": "Lexical Ambiguity\n\n¢ Biased: a word’s Mgs are asymmetric in\n\nfrequency, e.g.,\n* This time the ball was moved. ....\n.... because it was always so well attended\n* Balanced: two equally likely Mgs, e.g.,\n...the cell looked small...\nbecause it was piled high with supplies",
+    "speech": "In this image, you can see a visual representation of lexical ambiguity, which occurs when a single word has multiple possible meanings. The diagram illustrates how words like \"rose\" can refer to either a flower or a verb, and how words like \"duck\" can be both a noun and a verb, showing the complexity of language and the need for lemmatization to convert words to their meaningful base form. Lemmatization considers the context and part of speech to ensure the output is a valid word, as seen in the examples of words like \"happiness\" and \"dance\"."
   }
 }
