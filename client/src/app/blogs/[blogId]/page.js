@@ -1,6 +1,6 @@
 'use client';
 /* displays the each topic of the blog and allows user to generate video for each topic */
-
+//need to set up the ui and here the mcq and summary will be displayed for each topic
 import {
   Table,
   TableBody,
