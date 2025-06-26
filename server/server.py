@@ -84,7 +84,7 @@ def upload_pdf():
     print(f"Saved uploaded PDF to {save_path}")
     try:
         print(f"Processing file: {save_path}")
-        # Load document
+        # Load document using UnstructuredLoader
         loader = UnstructuredLoader(file_path=save_path, strategy="hi_res")
         docs_local = []    
         print("Loading document...")
